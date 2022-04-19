@@ -48,5 +48,6 @@ module.exports = {
             },
         ],
         'react/function-component-definition': 'off',
+        'no-restricted-exports': 'off',
     },
 }
