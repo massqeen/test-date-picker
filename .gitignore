@@ -21,3 +21,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.zip
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
+.vs/*
+/pre-commit-hook.sh
+.eslintcache
