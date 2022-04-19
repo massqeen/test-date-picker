@@ -6,7 +6,9 @@ import DatePickers from 'components/DatePickers'
 const App = (): JSX.Element => (
     <MuiThemeProvider>
         <div className="App">
-            <DatePickers />
+            <div className="container flex-centered">
+                <DatePickers />
+            </div>
         </div>
     </MuiThemeProvider>
 )

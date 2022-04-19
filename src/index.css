@@ -1,5 +1,5 @@
 :root {
-    --page-bg: #eee7be;
+    --page-bg: #f1f0d7;
 }
 
 body {
@@ -9,4 +9,14 @@ body {
         'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
